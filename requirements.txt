@@ -1,6 +1,6 @@
 streamlit
 pyswisseph
 geopy
-date
+datetime
 timezonefinder
 pytz
