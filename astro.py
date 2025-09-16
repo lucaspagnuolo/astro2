@@ -2,7 +2,7 @@
 # Requisiti:
 # pip install streamlit pyswisseph geopy timezonefinder pytz
 import streamlit as st
-from datetime import datetime, time
+from datetime import datetime, time, date
 import pytz
 from timezonefinder import TimezoneFinder
 from geopy.geocoders import Nominatim
