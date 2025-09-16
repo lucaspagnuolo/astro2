@@ -81,7 +81,7 @@ with st.form("astro_form"):
        lat_in = st.text_input("Facoltativo - Latitudine (es. 41.90)", value="")
    with col2:
        lon_in = st.text_input("Facoltativo - Longitudine (es. 12.49)", value="")
-   date_of_birth = st.date_input("Data di nascita", min_value=date(1900,1,1))
+   date_of_birth = st.date_input("Data di nascita", min_value=date(1900,1,1), max_value=date.today(), value=date(1990,1,1))
    time_of_birth = st.time_input("Ora di nascita (ora locale)", value=time(12,0))
    submitted = st.form_submit_button("Calcola")
 if submitted:
